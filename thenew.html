@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the new</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/thenew.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        window.onload = () => {
+
+            var swiper = new Swiper(".menu_image", {
+                slidesPerView: 1.73,
+            });
+
+            let hdMenu = document.querySelector('.menu');
+            let hdClose = document.querySelector('.menu_close');
+            let hdMenuWrap = document.querySelector('.menu_wrap');
+            let hdDep01_1 = document.querySelector('.depth-01-1');
+            let hdDep01_2 = document.querySelector('.depth-01-2');
+            let hdDep01_3 = document.querySelector('.depth-01-3');
+            let hdDep01_4 = document.querySelector('.depth-01-4');
+            let hdDep01_5 = document.querySelector('.depth-01-5');
+            let hdDep01_6 = document.querySelector('.depth-01-6');
+            let hdDep01_7 = document.querySelector('.depth-01-7');
+            let hdDep02 = document.querySelector('.depth-02');
+            let hdDep02_2 = document.querySelector('.depth-02-2');
+            let hdDep02_3 = document.querySelector('.depth-02-3');
+            let hdDep02_4 = document.querySelector('.depth-02-4');
+            let hdDep02_5 = document.querySelector('.depth-02-5');
+            let hdDep02_6 = document.querySelector('.depth-02-6');
+            let hdDep02_7 = document.querySelector('.depth-02-7');
+
+            hdMenu.addEventListener('click', () => {
+                hdMenuWrap.classList.add('active');
+            });
+
+            hdClose.addEventListener('click', () => {
+                hdMenuWrap.classList.remove('active')
+            });
+
+            hdDep01_1.addEventListener('click', () => {
+                hdDep01_1.classList.add('active');
+                hdDep01_2.classList.remove('active');
+                hdDep01_3.classList.remove('active');
+                hdDep01_4.classList.remove('active');
+                hdDep01_5.classList.remove('active');
+                hdDep01_6.classList.remove('active');
+                hdDep01_7.classList.remove('active');
+            });
+
+            hdDep01_1.addEventListener('click', () => {
+                hdDep02.classList.add('active');
+                hdDep02_2.classList.remove('active');
+                hdDep02_3.classList.remove('active');
+                hdDep02_4.classList.remove('active');
+                hdDep02_5.classList.remove('active');
+                hdDep02_6.classList.remove('active');
+                hdDep02_7.classList.remove('active');
+            });
+            
+            hdDep01_2.addEventListener('click', () => {
+                hdDep01_1.classList.remove('active');
+                hdDep01_2.classList.add('active');
+                hdDep01_3.classList.remove('active');
+                hdDep01_4.classList.remove('active');
+                hdDep01_5.classList.remove('active');
+                hdDep01_6.classList.remove('active');
+                hdDep01_7.classList.remove('active');
+            });
+
+            hdDep01_2.addEventListener('click', () => {
+                hdDep02.classList.remove('active');
+                hdDep02_2.classList.add('active');
+                hdDep02_3.classList.remove('active');
+                hdDep02_4.classList.remove('active');
+                hdDep02_5.classList.remove('active');
+                hdDep02_6.classList.remove('active');
+                hdDep02_7.classList.remove('active');
+            });
+
+            hdDep01_3.addEventListener('click', () => {
+                hdDep01_1.classList.remove('active');
+                hdDep01_2.classList.remove('active');
+                hdDep01_3.classList.add('active');
+                hdDep01_4.classList.remove('active');
+                hdDep01_5.classList.remove('active');
+                hdDep01_6.classList.remove('active');
+                hdDep01_7.classList.remove('active');
+            });
+
+            hdDep01_3.addEventListener('click', () => {
+                hdDep02.classList.remove('active');
+                hdDep02_2.classList.remove('active');
+                hdDep02_3.classList.add('active');
+                hdDep02_4.classList.remove('active');
+                hdDep02_5.classList.remove('active');
+                hdDep02_6.classList.remove('active');
+                hdDep02_7.classList.remove('active');
+            });
+
+            hdDep01_4.addEventListener('click', () => {
+                hdDep01_1.classList.remove('active');
+                hdDep01_2.classList.remove('active');
+                hdDep01_3.classList.remove('active');
+                hdDep01_4.classList.add('active');
+                hdDep01_5.classList.remove('active');
+                hdDep01_6.classList.remove('active');
+                hdDep01_7.classList.remove('active');
+            });
+
+            hdDep01_4.addEventListener('click', () => {
+                hdDep02.classList.remove('active');
+                hdDep02_2.classList.remove('active');
+                hdDep02_3.classList.remove('active');
+                hdDep02_4.classList.add('active');
+                hdDep02_5.classList.remove('active');
+                hdDep02_6.classList.remove('active');
+                hdDep02_7.classList.remove('active');
+            });
+
+            hdDep01_5.addEventListener('click', () => {
+                hdDep01_1.classList.remove('active');
+                hdDep01_2.classList.remove('active');
+                hdDep01_3.classList.remove('active');
+                hdDep01_4.classList.remove('active');
+                hdDep01_5.classList.add('active');
+                hdDep01_6.classList.remove('active');
+                hdDep01_7.classList.remove('active');
+            });
+
+            hdDep01_5.addEventListener('click', () => {
+                hdDep02.classList.remove('active');
+                hdDep02_2.classList.remove('active');
+                hdDep02_3.classList.remove('active');
+                hdDep02_4.classList.remove('active');
+                hdDep02_5.classList.add('active');
+                hdDep02_6.classList.remove('active');
+                hdDep02_7.classList.remove('active');
+            });
+
+            hdDep01_6.addEventListener('click', () => {
+                hdDep01_1.classList.remove('active');
+                hdDep01_2.classList.remove('active');
+                hdDep01_3.classList.remove('active');
+                hdDep01_4.classList.remove('active');
+                hdDep01_5.classList.remove('active');
+                hdDep01_6.classList.add('active');
+                hdDep01_7.classList.remove('active');
+            });
+
+            hdDep01_6.addEventListener('click', () => {
+                hdDep02.classList.remove('active');
+                hdDep02_2.classList.remove('active');
+                hdDep02_3.classList.remove('active');
+                hdDep02_4.classList.remove('active');
+                hdDep02_5.classList.remove('active');
+                hdDep02_6.classList.add('active');
+                hdDep02_7.classList.remove('active');
+            });
+
+            hdDep01_7.addEventListener('click', () => {
+                hdDep01_1.classList.remove('active');
+                hdDep01_2.classList.remove('active');
+                hdDep01_3.classList.remove('active');
+                hdDep01_4.classList.remove('active');
+                hdDep01_5.classList.remove('active');
+                hdDep01_6.classList.remove('active');
+                hdDep01_7.classList.add('active');
+            });
+
+            hdDep01_7.addEventListener('click', () => {
+                hdDep02.classList.remove('active');
+                hdDep02_2.classList.remove('active');
+                hdDep02_3.classList.remove('active');
+                hdDep02_4.classList.remove('active');
+                hdDep02_5.classList.remove('active');
+                hdDep02_6.classList.remove('active');
+                hdDep02_7.classList.add('active');
+            });
+
+
+            let hdBtn1 = document.querySelector('.btn1');
+            let hdBtn2 = document.querySelector('.btn2');
+            let hdBtn3 = document.querySelector('.btn3');
+            let hdBtn4 = document.querySelector('.btn4');
+            let hdBtn5 = document.querySelector('.btn5');
+            let hdBtn6 = document.querySelector('.btn6');
+            let hdBtn7 = document.querySelector('.btn7');
+            let hdBtn8 = document.querySelector('.btn8');
+            let hdBtn9 = document.querySelector('.btn9');
+            let hdBtn10 = document.querySelector('.btn10');
+            let hdBtn11 = document.querySelector('.btn11');
+            let hdDep03_1 = document.querySelector('.depth03-1');
+            let hdDep03_2 = document.querySelector('.depth03-2');
+            let hdDep03_3 = document.querySelector('.depth03-3');
+            let hdDep03_4 = document.querySelector('.depth03-4');
+            let hdDep03_5 = document.querySelector('.depth03-5');
+            let hdDep03_6 = document.querySelector('.depth03-6');
+            let hdDep03_7 = document.querySelector('.depth03-7');
+            let hdDep03_8 = document.querySelector('.depth03-8');
+            let hdDep03_9 = document.querySelector('.depth03-9');
+            let hdDep03_10 = document.querySelector('.depth03-10');
+            let hdDep03_11 = document.querySelector('.depth03-11');
+
+            hdBtn1.addEventListener('click', () => {
+                hdBtn1.classList.toggle('active');
+                hdDep03_1.classList.toggle('active');
+            });
+
+            hdBtn2.addEventListener('click', () => {
+                hdBtn2.classList.toggle('active');
+                hdDep03_2.classList.toggle('active');
+            });
+
+            hdBtn3.addEventListener('click', () => {
+                hdBtn3.classList.toggle('active');
+                hdDep03_3.classList.toggle('active');
+            });
+            hdBtn4.addEventListener('click', () => {
+                hdBtn4.classList.toggle('active');
+                hdDep03_4.classList.toggle('active');
+            });
+            hdBtn5.addEventListener('click', () => {
+                hdBtn5.classList.toggle('active');
+                hdDep03_5.classList.toggle('active');
+            });
+            hdBtn6.addEventListener('click', () => {
+                hdBtn6.classList.toggle('active');
+                hdDep03_6.classList.toggle('active');
+            });
+            hdBtn7.addEventListener('click', () => {
+                hdBtn7.classList.toggle('active');
+                hdDep03_7.classList.toggle('active');
+            });
+            hdBtn8.addEventListener('click', () => {
+                hdBtn8.classList.toggle('active');
+                hdDep03_8.classList.toggle('active');
+            });
+            hdBtn9.addEventListener('click', () => {
+                hdBtn9.classList.toggle('active');
+                hdDep03_9.classList.toggle('active');
+            });
+            hdBtn10.addEventListener('click', () => {
+                hdBtn10.classList.toggle('active');
+                hdDep03_10.classList.toggle('active');
+            });
+            hdBtn11.addEventListener('click', () => {
+                hdBtn11.classList.toggle('active');
+                hdDep03_11.classList.toggle('active');
+            });
+
+            let view1 = document.querySelector('.view1');
+            let view2 = document.querySelector('.view2');
+            let view3 = document.querySelector('.view3');
+
+            view1.addEventListener('click', () => {
+                view1.classList.add('active');
+                view2.classList.remove('active');
+                view3.classList.remove('active');
+            });
+            view2.addEventListener('click', () => {
+                view1.classList.remove('active');
+                view2.classList.add('active');
+                view3.classList.remove('active');
+            });
+            view3.addEventListener('click', () => {
+                view1.classList.remove('active');
+                view2.classList.remove('active');
+                view3.classList.add('active');
+            });
+
+
+        };
+    </script>
+
+</head>
+<body>
+    <header class="header">
+        <div class="wrap">
+            <div class="logo">
+                <a href="#" class="menu"><img src="img/menu.png" alt=""></a>
+                <div class="menu_wrap">
+                <div class="menu_inner">
+                    <div class="menu_logo">
+                        <div class="menu_close">
+                            <a href="#"><img src="img/close.png" alt=""></a>
+                        </div><!-- menu_close -->
+                        <img class="logo" src="img/logo.png" alt="">
+                    </div><!-- .menu_logo end -->
+                    <nav class="nav">
+                        <div class="nav_menu">
+                            <a href="#">LOGIN</a>
+                            <a href="#">SIGNUP</a>
+                            <a href="#">CART</a>
+                        </div><!-- .nav_menu end -->
+                        <ul class="gnb">
+                            <li>
+                                <a href="#" class="depth-01-1">여성</a>
+                                <div class="depth-02">
+                                    <div class="image_box">
+                                        <div class="swiper menu_image">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <a href="#"><img src="img/menu1.jpg" alt=""></a>
+                                                </div><!-- swiper-slide -->
+                                                <div class="swiper-slide">
+                                                    <a href="#"><img src="img/menu2.jpg" alt=""></a>
+                                                </div><!-- swiper-slide -->
+                                                <div class="swiper-slide">
+                                                    <a href="#"><img src="img/menu1-1.jpg" alt=""></a>
+                                                </div><!-- swiper-slide -->
+                                            </div><!-- swiper-wrapper -->
+                                        </div><!-- swiper menu_image -->
+                                    </div><!-- image_box -->
+                                    <ul class="text-01">
+                                        <li><a href="#">THE NEW</a></li>
+                                        <li><a href="#">SALE</a></li>
+                                        <li><a href="#">특가 상품</a></li>
+                                        <li><a href="#">BEST SELLERS</a></li>
+                                        <li><a href="#">토탈룩</a></li>
+                                    </ul><!-- .text-01 end -->
+                                    <ul class="text-01">
+                                        <li><a href="#">모두보기</a></li>
+                                        <li><a href="#">원피스</a></li>
+                                        <li><a href="#">셔츠 및 탑</a></li>
+                                        <li><a href="#">스커트</a></li>
+                                        <li><a href="#">니트웨어</a></li>
+                                        <li><a href="#">데님</a></li>
+                                        <li><a href="#">티셔츠 및 스웨트 셔츠</a></li>
+                                        <li><a href="#">팬츠</a></li>
+                                        <li><a href="#">아우터</a></li>
+                                        <li><a href="#">재킷 및 코트</a></li>
+                                        <li><a href="#">언더웨어 및 비치웨어</a></li>
+                                        <li><a href="#">슈즈</a></li>
+                                        <li><a href="#">가방</a></li>
+                                        <li><a href="#">액세서리</a></li>
+                                    </ul><!-- .text-01 end -->
+                                    <ul class="text-01-1">
+                                        <li>
+                                            <a href="#">TRF COVERS</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="btn1">THE PROCESS</a>
+                                            <div class="depth03-1">
+                                                <ul class="text-02">
+                                                    <li><a href="#">EDITORIAL</a></li>
+                                                    <li><a href="#">컬렉션</a></li>
+                                                    <li><a href="#">절차</a></li>
+                                                </ul><!-- text-02 -->
+                                            </div><!-- .depth03-1 end -->
+                                        </li>
+                                        <li>
+                                            <a href="#" class="btn2">SPECIAL EDITION</a>
+                                            <div class="depth03-2">
+                                                <ul class="text-02">
+                                                    <li><a href="#">SRPLS LNN</a></li>
+                                                    <li><a href="#">SUMMER AURA</a></li>
+                                                    <li><a href="#">ZARA HAIR</a></li>
+                                                </ul><!-- text-02 -->
+                                            </div><!-- .depth03-2 end -->
+                                        </li>
+                                    </ul><!-- .text-01-1 end -->
+                                </div><!-- .depth-02 end -->
+                            </li>
+                            <li>
+                                <a href="#" class="depth-01-2">남성</a>
+                                <div class="depth-02-2">
+                                    <div class="image_box">
+                                        <div class="swiper menu_image">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <a href="#"><img src="img/menu_2-1.jpg" alt=""></a>
+                                                </div><!-- swiper-slide -->
+                                                <div class="swiper-slide">
+                                                    <a href="#"><img src="img/menu_2-2.jpg" alt=""></a>
+                                                </div><!-- swiper-slide -->
+                                                <div class="swiper-slide">
+                                                    <a href="#"><img src="img/menu_2-3.jpg" alt=""></a>
+                                                </div><!-- swiper-slide -->
+                                            </div><!-- swiper-wrapper -->
+                                        </div><!-- swiper menu_image -->
+                                    </div><!-- image_box -->
+                                    <ul class="text-01">
+                                        <li><a href="#">THE NEW</a></li>
+                                        <li><a href="#">SALE</a></li>
+                                        <li><a href="#">BEST SELLERS</a></li>
+                                        <li><a href="#">토탈룩</a></li>
+                                    </ul><!-- .text-01 end -->
+                                    <ul class="text-01">
+                                        <li><a href="#">모두보기</a></li>
+                                        <li><a href="#">아우터</a></li>
+                                        <li><a href="#">재킷 및 코트</a></li>
+                                        <li><a href="#">셔츠</a></li>
+                                        <li><a href="#">티셔츠 및 폴로 셔츠</a></li>
+                                        <li><a href="#">팬츠</a></li>
+                                        <li><a href="#">데님</a></li>
+                                        <li><a href="#">니트웨어</a></li>
+                                        <li><a href="#">린넨</a></li>
+                                        <li><a href="#">수트</a></li>
+                                        <li><a href="#">스포츠웨어</a></li>
+                                        <li><a href="#">비치웨어</a></li>
+                                        <li><a href="#">슈즈</a></li>
+                                        <li><a href="#">가방</a></li>
+                                        <li><a href="#">액세서리</a></li>
+                                    </ul><!-- .text-01 end -->
+                                    <ul class="text-01-1">
+                                        <li>
+                                            <a href="#">ZARA ATHLECTICZ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">ZARA ORIGIN</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="btn3">SPECIAL EDITION</a>
+                                            <div class="depth03-3">
+                                                <ul class="text-02">
+                                                    <li><a href="#">SRPLS LNN</a></li>
+                                                    <li><a href="#">SUMMER AURA</a></li>
+                                                </ul><!-- text-02 -->
+                                            </div><!-- .depth03-3 end -->
+                                        </li>
+                                    </ul><!-- .text-01 end -->
+                                </div><!-- .depth-02 end -->
+                            </li>
+                            <li>
+                                <a href="#" class="depth-01-3">아동</a>
+                                <div class="depth-02-3">
+                                    <div class="image_box">
+                                        <div class="swiper menu_image">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <a href="#"><img src="img/menu3-1.jpg" alt=""></a>
+                                                </div><!-- swiper-slide -->
+                                                <div class="swiper-slide">
+                                                    <a href="#"><img src="img/menu3-2.jpg" alt=""></a>
+                                                </div><!-- swiper-slide -->
+                                                <div class="swiper-slide">
+                                                    <a href="#"><img src="img/menu3-3.jpg" alt=""></a>
+                                                </div><!-- swiper-slide -->
+                                                <div class="swiper-slide">
+                                                    <a href="#"><img src="img/menu3-4.jpg" alt=""></a>
+                                                </div><!-- swiper-slide -->
+                                                <div class="swiper-slide">
+                                                    <a href="#"><img src="img/menu3-5.jpg" alt=""></a>
+                                                </div><!-- swiper-slide -->
+                                            </div><!-- swiper-wrapper -->
+                                        </div><!-- swiper menu_image -->
+                                    </div><!-- image_box -->
+                                    <ul class="text-01">
+                                        <li><a href="#">THE NEW</a></li>
+                                        <li><a href="#">SALE</a></li>
+                                        <li><a href="#">BEST SELLERS</a></li>
+                                    </ul><!-- .text-01 end -->
+                                    <ul class="text-01-1">
+                                        <li>
+                                            <a href="#" class="btn4">여아</a>
+                                            <div class="depth03-4">
+                                                <ul class="text-02">
+                                                    <li><a href="#">18개월 ~ 6세</a></li>
+                                                    <li><a href="#">6세 ~ 14세</a></li>
+                                                </ul><!-- .text-02 end -->
+                                            </div><!-- .depth03-4 -->
+                                        </li>
+                                        <li>
+                                            <a href="#" class="btn5">남아</a>
+                                            <div class="depth03-5">
+                                                <ul class="text-02">
+                                                    <li><a href="#">18개월 ~ 6세</a></li>
+                                                    <li><a href="#">6세 ~ 14세</a></li>
+                                                </ul><!-- .text-02 end -->
+                                            </div><!-- depth03-5 -->
+                                        </li>
+                                        <li>
+                                            <a href="#" class="btn6">베이비</a>
+                                            <div class="depth03-6">
+                                                <ul class="text-02">
+                                                    <li><a href="#">0 ~ 18개월</a></li>
+                                                </ul><!-- .text-02 end -->
+                                            </div><!-- depth03-6 -->
+                                        </li>
+                                    </ul><!-- .text-01 end -->
+                                    <ul class="text-01-1">
+                                        <li>
+                                            <a href="#">ZARA TIMELESS</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="btn7">SPECIAL EDITION</a>
+                                            <div class="depth03-7">
+                                                <ul class="text-02">
+                                                    <li><a href="#">SRPLS LNN</a></li>
+                                                    <li><a href="#">SUMMER AURA</a></li>
+                                                </ul><!-- text-02 -->
+                                            </div><!-- .depth03-7 end -->
+                                        </li>
+                                    </ul><!-- .text-01 end -->
+                                </div><!-- .depth-02-3 end -->
+                            </li>
+                            <li>
+                                <a href="#" class="depth-01-4">HOME</a>
+                                <div class="depth-02-4">
+                                    <div class="image_box">
+                                        <div class="swiper menu_image">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <a href="#"><img src="img/menu4-1.jpg" alt=""></a>
+                                                </div><!-- swiper-slide -->
+                                                <div class="swiper-slide">
+                                                    <a href="#"><img src="img/menu4-2.jpg" alt=""></a>
+                                                </div><!-- swiper-slide -->
+                                                <div class="swiper-slide">
+                                                    <a href="#"><img src="img/menu4-3.jpg" alt=""></a>
+                                                </div><!-- swiper-slide -->
+                                            </div><!-- swiper-wrapper -->
+                                        </div><!-- swiper menu_image -->
+                                    </div><!-- image_box -->
+                                    <ul class="text-01">
+                                        <li><a href="#">모두보기</a></li>
+                                        <li><a href="#">가구</a></li>
+                                        <li><a href="#">침구</a></li>
+                                        <li><a href="#">조명</a></li>
+                                        <li><a href="#">러그</a></li>
+                                        <li><a href="#">거울</a></li>
+                                        <li><a href="#">주방</a></li>
+                                        <li><a href="#">데코</a></li>
+                                        <li><a href="#">커튼 & 블라인드</a></li>
+                                        <li><a href="#">쿠션 & 충전재</a></li>
+                                        <li><a href="#">욕실</a></li>
+                                        <li><a href="#">세탁 & 청소</a></li>
+                                        <li><a href="#">드레스 룸</a></li>
+                                        <li><a href="#">홈웨어</a></li>
+                                        <li><a href="#">홈 프레이그런스</a></li>
+                                        <li><a href="#">책 & 음악</a></li>
+                                        <li><a href="#">반려동물</a></li>
+                                    </ul><!-- .text-01 end -->
+                                    <ul class="text-01-1">
+                                        <li>
+                                            <a href="#" class="btn8">HOME KIDS</a>
+                                            <div class="depth03-8">
+                                                <ul class="text-02">
+                                                    <li><a href="#">신생아 용품</a></li>
+                                                    <li><a href="#">토이 스토어</a></li>
+                                                    <li><a href="#">TOY STORY ⓒDISNEY/PIXAR</a></li>
+                                                    <li><a href="#">반가워요, 새 학기</a></li>
+                                                </ul><!-- text-02 -->
+                                            </div><!-- .depth03-8 end -->
+                                        </li>
+                                        <li>
+                                            <a href="#" class="btn9">SPECIAL EDITION</a>
+                                            <div class="depth03-9">
+                                                <ul class="text-02">
+                                                    <li><a href="#">VINCENT VAN DUYSEN</a></li>
+                                                    <li><a href="#">ZARAHOME X COLLAGERIE</a></li>
+                                                </ul><!-- text-02 -->
+                                            </div><!-- .depth03-9 end -->
+                                        </li>
+                                    </ul><!-- .text-01 end -->
+                                </div><!-- .depth-02-4 end -->
+                            </li>
+                            <li>
+                                <a href="#" class="depth-01-5">50TH</a>
+                                <div class="depth-02-5">
+                                    <ul class="text-01-1">
+                                        <li>
+                                            <a href="#" class="btn10">경험</a>
+                                            <div class="depth03-10">
+                                                <ul class="text-02">
+                                                    <li><a href="#">50 SONGS OF THE SEA</a></li>
+                                                    <li><a href="#">돔</a></li>
+                                                    <li><a href="#">방문</a></li>
+                                                    <li><a href="#">MEDIA</a></li>
+                                                </ul><!-- text-02 -->
+                                            </div><!-- .depth03-10 end -->
+                                        </li>
+                                        <li><a href="#">THE GIFT SHOP</a></li>
+                                        <li><a href="#">THE FILM</a></li>
+                                        <li><a href="#">컬렉션</a></li>
+                                        <li><a href="#">ZARA 스토리</a></li>
+                                        <li><a href="#">ZARA 최초의 매장</a></li>
+                                    </ul><!-- .text-01 end -->
+                                </div><!-- .depth-02-5 end -->
+                            </li>
+                            <li>
+                                <a href="#" class="depth-01-6">향수</a>
+                                <div class="depth-02-6">
+                                    <ul class="text-01">
+                                        <li><a href="#">여성</a></li>
+                                        <li><a href="#">남성</a></li>
+                                        <li><a href="#">아동</a></li>
+                                    </ul><!-- .text-01 end -->
+                                </div><!-- .depth-02-6 end -->
+                            </li>
+                            <li>
+                                <a href="#" class="depth-01-7">TRAVEL MODE</a>
+                                <div class="depth-02-7">
+                                    <ul class="text-01">
+                                        <li><a href="#">ABOUT</a></li>
+                                        <li><a href="#">THE GUIDES</a></li>
+                                    </ul><!-- .text-01 end -->
+                                </div><!-- .depth-02-7 end -->
+                            </li>
+                            <li class="menu_inside">
+                                <a href="#">JOIN LIFE</a>
+                                <a href="#" class="btn11">안내</a>
+                                <div class="depth03-11">
+                                    <ul class="text-02">
+                                        <li><a href="#">뉴스레터</a></li>
+                                        <li><a href="#">고객 센터</a></li>
+                                        <li><a href="#">매장</a></li>
+                                        <li><a href="#">도움말</a></li>
+                                        <li><a href="#">언론 보도</a></li>
+                                        <li><a href="#">회사소개</a></li>
+                                        <li><a href="#">사무소</a></li>
+                                    </ul><!-- text-02 -->
+                                </div><!-- .depth03-11 end -->
+                                <a href="#">채용</a>
+                                <a href="#">매장</a>
+                            </li><!-- menu_inside end -->
+                            <li class="menu_icon">
+                                <a href="#">
+                                    <img src="img/appstore.png" alt="">
+                                    <img src="img/googlestore.png" alt="">
+                                </a>
+                            </li><!-- .menu_icon end -->
+                        </ul><!-- .gnb end -->
+                    </nav><!-- .nav end -->
+                </div><!-- .menu_inner end -->
+            </div><!-- .menu_wrap end -->
+                <a href="#" class="hdlogo"><img src="img/logo.png" alt=""></a>
+            </div><!-- .logo end -->
+            <nav class="nav2">
+                <div class="search">
+                    <p>검색</p>
+                </div><!-- search end -->
+                <a href="#">도움말</a>
+                <ul class="gnb2">
+                    <li><a href="#"><img src="img/lets-icons_user-light.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/heart.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/cart.png" alt=""></a></li>
+                </ul><!-- .gnb end -->
+            </nav><!-- .nav end -->
+        </div><!-- .wrap end -->
+    </header><!-- .header end -->
+    <div class="title">
+        <h2>THE NEW</h2>
+    </div><!-- .title end -->
+    <div class="sub_nav">
+        <ul class="filter">
+            <li>580 items</li>
+            <li><a href="#" class="down">카테고리</a></li>
+            <li><a href="#" class="down">재질</a></li>
+            <li><a href="#" class="down">컬러</a></li>
+            <li><a href="#" class="down">사이즈</a></li>
+            <li><a href="#" class="down">가격</a></li>
+            <li><a href="#" class="close">초기화</a></li>
+        </ul><!-- .filter end -->
+        <div class="view">
+            <div class="view_image">
+                <a href="#" class="view1"><img src="img/view1-1.png" alt=""></a>
+                <a href="#" class="view2"><img src="img/view2.png" alt=""></a>
+                <a href="#" class="view3"><img src="img/view3.png" alt=""></a>
+            </div><!-- .view_image end -->
+            <a href="#" class="down">신상품순</a>
+        </div><!-- .view end -->
+    </div><!-- .sub_nav end -->
+    <section class="section-01">
+        <a href="#" class="sec01_img1"><img src="img/img1.jpg" alt=""></a>
+        <div class="text-01">
+            <h2>THE NEW CODE</h2>
+            <p>Zara Woman /2025 Collection</p>
+        </div><!-- .text-01 end -->
+        <div class="img_box">
+            <a href="#"><img src="img/img2-1.jpg" alt=""></a>
+            <a href="#"><img src="img/img2-2.jpg" alt=""></a>
+            <a href="#"><img src="img/img2-3.jpg" alt=""></a>
+            <h3>001</h3>
+        </div><!-- .img_box end -->
+        <a href="#" class="sec01_img2"><img src="img/img3.jpg" alt=""></a>
+        <div class="img_box2">
+            <a href="#"><img src="img/img3-1.jpg" alt=""></a>
+            <a href="#"><img src="img/img3-2.jpg" alt=""></a>
+            <h3>002</h3>
+            <a href="#"><img src="img/img3-3.jpg" alt=""></a>
+        </div><!-- .img_box end -->
+        <a href="#" class="sec01_img3"><img src="img/img4.jpg" alt=""></a>
+        <div class="img_box">
+            <a href="#"><img src="img/img4-1.jpg" alt=""></a>
+            <a href="#"><img src="img/img4-2.jpg" alt=""></a>
+            <a href="#"><img src="img/img4-3.jpg" alt=""></a>
+            <a href="#"><img src="img/img4-4.jpg" alt=""></a>
+        </div><!-- .img_box end -->
+        <span>Zara Woman /2025 Collection</span>
+    </section><!-- .section-01 end -->
+    <section class="section-02">
+        <div class="img_box">
+            <a href="#"><img src="img/with1-1.jpg" alt=""></a>
+            <a href="#"><img src="img/with1-2.jpg" alt=""></a>
+            <a href="#"><img src="img/with1-3.jpg" alt=""></a>
+            <a href="#"><img src="img/with1-4.jpg" alt=""></a>
+        </div><!-- .img_box end -->
+        <a href="#" class="sec02_img1"><img src="img/with2.jpg" alt=""></a>
+        <div class="box01">
+            <a href="#"><img src="img/with2-1.jpg" alt=""></a>
+            <div class="text-02">
+                <h2>NEW COLLECTION</h2>
+                <p>_WITH SHUU KAYUU</p>
+            </div><!-- .text-02 end -->
+        </div><!-- .box01 end -->
+        <div class="img_box">
+            <a href="#"><img src="img/with3-1.jpg" alt=""></a>
+            <a href="#"><img src="img/with3-2.jpg" alt=""></a>
+        </div><!-- .img_box end -->
+        <a href="#" class="sec02_img1"><img src="img/with3-3.jpg" alt=""></a>
+    </section><!-- .section-02 end -->
+</body>
+</html>

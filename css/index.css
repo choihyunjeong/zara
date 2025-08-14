@@ -745,6 +745,32 @@ body {
     left: 40px;
     transform: translateY(-50%);
 }
+.header .btn11 {
+    position: relative;
+    display: block;
+}
+.header .btn11::after {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: url('../img/plus.png') center center / cover no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+}
+.header .btn11.active::after {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 1.1px;
+    background: url('../img/minus.png') center center / cover no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+}
 .header .depth03-1 {
     display: none;
     font-size: 16px;
@@ -833,6 +859,15 @@ body {
     margin-left: 10px;
 }
 .header .depth03-10.active {
+    display: block;
+}
+.header .depth03-11 {
+    display: none;
+    font-size: 18px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.header .depth03-11.active {
     display: block;
 }
 .header .text-01-1 {

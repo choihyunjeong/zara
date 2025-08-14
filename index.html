@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/index.css">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         window.onload = () => {
@@ -234,6 +233,7 @@
             let hdBtn8 = document.querySelector('.btn8');
             let hdBtn9 = document.querySelector('.btn9');
             let hdBtn10 = document.querySelector('.btn10');
+            let hdBtn11 = document.querySelector('.btn11');
             let hdDep03_1 = document.querySelector('.depth03-1');
             let hdDep03_2 = document.querySelector('.depth03-2');
             let hdDep03_3 = document.querySelector('.depth03-3');
@@ -244,48 +244,53 @@
             let hdDep03_8 = document.querySelector('.depth03-8');
             let hdDep03_9 = document.querySelector('.depth03-9');
             let hdDep03_10 = document.querySelector('.depth03-10');
+            let hdDep03_11 = document.querySelector('.depth03-11');
 
             hdBtn1.addEventListener('click', () => {
-                hdBtn1.classList.add('active');
-                hdDep03_1.classList.add('active');
+                hdBtn1.classList.toggle('active');
+                hdDep03_1.classList.toggle('active');
             });
 
             hdBtn2.addEventListener('click', () => {
-                hdBtn2.classList.add('active');
-                hdDep03_2.classList.add('active');
+                hdBtn2.classList.toggle('active');
+                hdDep03_2.classList.toggle('active');
             });
 
             hdBtn3.addEventListener('click', () => {
-                hdBtn3.classList.add('active');
-                hdDep03_3.classList.add('active');
+                hdBtn3.classList.toggle('active');
+                hdDep03_3.classList.toggle('active');
             });
             hdBtn4.addEventListener('click', () => {
-                hdBtn4.classList.add('active');
-                hdDep03_4.classList.add('active');
+                hdBtn4.classList.toggle('active');
+                hdDep03_4.classList.toggle('active');
             });
             hdBtn5.addEventListener('click', () => {
-                hdBtn5.classList.add('active');
-                hdDep03_5.classList.add('active');
+                hdBtn5.classList.toggle('active');
+                hdDep03_5.classList.toggle('active');
             });
             hdBtn6.addEventListener('click', () => {
-                hdBtn6.classList.add('active');
-                hdDep03_6.classList.add('active');
+                hdBtn6.classList.toggle('active');
+                hdDep03_6.classList.toggle('active');
             });
             hdBtn7.addEventListener('click', () => {
-                hdBtn7.classList.add('active');
-                hdDep03_7.classList.add('active');
+                hdBtn7.classList.toggle('active');
+                hdDep03_7.classList.toggle('active');
             });
             hdBtn8.addEventListener('click', () => {
-                hdBtn8.classList.add('active');
-                hdDep03_8.classList.add('active');
+                hdBtn8.classList.toggle('active');
+                hdDep03_8.classList.toggle('active');
             });
             hdBtn9.addEventListener('click', () => {
-                hdBtn9.classList.add('active');
-                hdDep03_9.classList.add('active');
+                hdBtn9.classList.toggle('active');
+                hdDep03_9.classList.toggle('active');
             });
             hdBtn10.addEventListener('click', () => {
-                hdBtn10.classList.add('active');
-                hdDep03_10.classList.add('active');
+                hdBtn10.classList.toggle('active');
+                hdDep03_10.classList.toggle('active');
+            });
+            hdBtn11.addEventListener('click', () => {
+                hdBtn11.classList.toggle('active');
+                hdDep03_11.classList.toggle('active');
             });
 
         };
@@ -619,7 +624,18 @@
                             </li>
                             <li class="menu_inside">
                                 <a href="#">JOIN LIFE</a>
-                                <a href="#">안내</a>
+                                <a href="#" class="btn11">안내</a>
+                                <div class="depth03-11">
+                                    <ul class="text-02">
+                                        <li><a href="#">뉴스레터</a></li>
+                                        <li><a href="#">고객 센터</a></li>
+                                        <li><a href="#">매장</a></li>
+                                        <li><a href="#">도움말</a></li>
+                                        <li><a href="#">언론 보도</a></li>
+                                        <li><a href="#">회사소개</a></li>
+                                        <li><a href="#">사무소</a></li>
+                                    </ul><!-- text-02 -->
+                                </div><!-- .depth03-11 end -->
                                 <a href="#">채용</a>
                                 <a href="#">매장</a>
                             </li><!-- menu_inside end -->
@@ -749,7 +765,7 @@
         <section class="section" id="section4">
             <h2>THE NEW</h2>
             <div class="new">
-                <a href="#">
+                <a href="thenew.html">
                     <p>신상품 전체보기</p>
                     <img src="img/arrow_right.png" alt="">
                 </a>
